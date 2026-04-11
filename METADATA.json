@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "sdnet2018-classification",
+    "name": "SDNET2018 Classification",
+    "short_name": "sdnet2018-cls",
+    "description": "Classification packaging of SDNET2018 concrete crack imagery with image-level labels for cracked and non-cracked surfaces.",
+    "year": 2018
+  },
+  "project_context": {
+    "task": "classification",
+    "tasks": [
+      "classification"
+    ],
+    "damage_types": [
+      "crack",
+      "non-crack"
+    ]
+  },
+  "imaging_setup": {
+    "camera": "Surface imaging setup for bridge decks, pavements, and walls",
+    "resolution": "256x256 RGB image patches",
+    "lighting_conditions": "Variable outdoor lighting with shadows and debris",
+    "capture_height_mm": "Not reported",
+    "geotagged": false
+  },
+  "annotation_schema": [
+    {
+      "type": "classification",
+      "description": "Image-level crack presence labels",
+      "classes": [
+        {
+          "id": 0,
+          "name": "non-cracked",
+          "description": "Concrete surface patch without visible crack",
+          "color": "#00AA00"
+        },
+        {
+          "id": 1,
+          "name": "cracked",
+          "description": "Concrete surface patch containing crack",
+          "color": "#FF0000"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 56091,
+    "n_annotations": 56091,
+    "n_images_with_annotations": 56091,
+    "average_annotations_per_image": 1.0,
+    "image_format": "image_folder",
+    "class_distribution": {
+      "cracked": 8484,
+      "non-cracked": 47607
+    },
+    "split": {
+      "bridge_deck": {
+        "n_images": 13620,
+        "percentage": 0.24
+      },
+      "pavement": {
+        "n_images": 24333,
+        "percentage": 0.43
+      },
+      "wall": {
+        "n_images": 18138,
+        "percentage": 0.32
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "United States",
+        "image_count": 56091
+      }
+    ],
+    "temporal_scope": "Published 2018"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Labels published with SDNET2018 dataset release",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published dataset and data article"
+  },
+  "authors": [
+    {
+      "name": "Sattar Dorafshan",
+      "affiliation": "Utah State University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Robert J. Thomas",
+      "affiliation": "Utah State University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Marc Maguire",
+      "affiliation": "Utah State University",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/sdnet2018-classification",
+    "download": "https://digitalcommons.usu.edu/all_datasets/48/",
+    "doi": "https://doi.org/10.15142/T3TD19",
+    "paper": "https://doi.org/10.1016/j.dib.2018.11.015",
+    "homepage": "https://digitalcommons.usu.edu/all_datasets/48/"
+  },
+  "citation": {
+    "bibtex": "@dataset{dorafshan2018sdnet2018,\n  author = {Dorafshan, Sattar and Thomas, Robert J. and Maguire, Marc},\n  title = {SDNET2018: A concrete crack image dataset for machine learning applications},\n  year = {2018},\n  publisher = {Utah State University Digital Commons},\n  doi = {10.15142/T3TD19},\n  url = {https://doi.org/10.15142/T3TD19}\n}",
+    "article_bibtex": "@article{dorafshan2018sdnet2018_article,\n  title = {SDNET2018: An annotated image dataset for non-contact concrete crack detection using deep convolutional neural networks},\n  author = {Dorafshan, Sattar and Thomas, Robert J. and Maguire, Marc},\n  journal = {Data in Brief},\n  volume = {21},\n  pages = {1664--1668},\n  year = {2018},\n  doi = {10.1016/j.dib.2018.11.015}\n}"
+  },
+  "tags": [
+    "classification",
+    "concrete-crack",
+    "sdnet2018",
+    "road-damage",
+    "bridge-deck",
+    "pavement",
+    "wall"
+  ],
+  "source_publication": {
+    "dataset_doi": "10.15142/T3TD19",
+    "article_doi": "10.1016/j.dib.2018.11.015",
+    "article_title": "SDNET2018: An annotated image dataset for non-contact concrete crack detection using deep convolutional neural networks",
+    "journal": "Data in Brief",
+    "year": 2018
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "total_images": 56091,
+  "total_annotations": 56091,
+  "total_classes": 2,
+  "splits_breakdown": {
+    "bridge_deck": {
+      "images": 13620,
+      "annotations": 13620,
+      "classes": {
+        "cracked": 2025,
+        "non-cracked": 11595
+      }
+    },
+    "pavement": {
+      "images": 24333,
+      "annotations": 24333,
+      "classes": {
+        "cracked": 2608,
+        "non-cracked": 21725
+      }
+    },
+    "wall": {
+      "images": 18138,
+      "annotations": 18138,
+      "classes": {
+        "cracked": 3851,
+        "non-cracked": 14287
+      }
+    }
+  }
+}
