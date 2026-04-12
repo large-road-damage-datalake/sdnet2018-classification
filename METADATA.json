@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "sdnet2018-classification",
-    "name": "SDNET2018 Classification",
+    "name": "SDNET2018",
     "short_name": "sdnet2018-cls",
     "description": "Classification packaging of SDNET2018 concrete crack imagery with image-level labels for cracked and non-cracked surfaces.",
     "year": 2018
