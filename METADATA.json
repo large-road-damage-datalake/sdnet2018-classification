@@ -15,7 +15,10 @@
     "damage_types": [
       "crack",
       "non-crack"
-    ]
+    ],
+    "task_classification": {
+      "primary_task": "classification"
+    }
   },
   "imaging_setup": {
     "camera": "Surface imaging setup for bridge decks, pavements, and walls",
@@ -52,6 +55,9 @@
     "n_annotations": 56091,
     "n_images_with_annotations": 56091,
     "average_annotations_per_image": 1.0,
+    "dataset_size": "506.18 MB",
+    "dataset_size_bytes": 530765639,
+    "dataset_file_count": 56091,
     "image_format": "image_folder",
     "class_distribution": {
       "cracked": 8484,
@@ -62,19 +68,28 @@
         "n_images": 13620,
         "percentage": 0.24,
         "n_images_with_annotations": 13620,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1.0,
+        "dataset_size": "95.01 MB",
+        "dataset_size_bytes": 99628272,
+        "dataset_file_count": 13620
       },
       "pavement": {
         "n_images": 24333,
         "percentage": 0.43,
         "n_images_with_annotations": 24333,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1.0,
+        "dataset_size": "299.19 MB",
+        "dataset_size_bytes": 313725011,
+        "dataset_file_count": 24333
       },
       "wall": {
         "n_images": 18138,
         "percentage": 0.32,
         "n_images_with_annotations": 18138,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1.0,
+        "dataset_size": "111.97 MB",
+        "dataset_size_bytes": 117412356,
+        "dataset_file_count": 18138
       }
     }
   },
