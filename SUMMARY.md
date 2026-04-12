@@ -1,6 +1,6 @@
 # Summary
 
-- Dataset package: SDNET2018 Classification
+- Dataset package: SDNET2018
 - Source dataset: SDNET2018
 - Task: classification
 - Image count: 56091

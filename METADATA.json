@@ -19,6 +19,9 @@
   },
   "imaging_setup": {
     "camera": "Surface imaging setup for bridge decks, pavements, and walls",
+    "camera_viewpoint": [
+      "top-down"
+    ],
     "resolution": "256x256 RGB image patches",
     "lighting_conditions": "Variable outdoor lighting with shadows and debris",
     "capture_height_mm": "Not reported",
@@ -57,15 +60,21 @@
     "split": {
       "bridge_deck": {
         "n_images": 13620,
-        "percentage": 0.24
+        "percentage": 0.24,
+        "n_images_with_annotations": 13620,
+        "annotation_coverage": 1.0
       },
       "pavement": {
         "n_images": 24333,
-        "percentage": 0.43
+        "percentage": 0.43,
+        "n_images_with_annotations": 24333,
+        "annotation_coverage": 1.0
       },
       "wall": {
         "n_images": 18138,
-        "percentage": 0.32
+        "percentage": 0.32,
+        "n_images_with_annotations": 18138,
+        "annotation_coverage": 1.0
       }
     }
   },

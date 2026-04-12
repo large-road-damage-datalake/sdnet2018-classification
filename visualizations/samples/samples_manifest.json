@@ -1,0 +1,95 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\non-cracked\\7014-10.jpg",
+      "classes": [
+        "non-cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_02_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/P\\cracked\\101-118.jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_03_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\non-cracked\\7035-168.jpg",
+      "classes": [
+        "non-cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_04_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/W\\non-cracked\\7113-50.jpg",
+      "classes": [
+        "non-cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_05_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/P\\cracked\\008-145.jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_06_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\cracked\\7010-96.jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_07_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\cracked\\7057-209.jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_08_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/P\\cracked\\071-51.jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_09_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/P\\non-cracked\\027-187.jpg",
+      "classes": [
+        "non-cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    },
+    {
+      "file": "sample_10_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/W\\cracked\\7090-218.jpg",
+      "classes": [
+        "cracked"
+      ],
+      "num_classes": 1,
+      "objects": 1
+    }
+  ],
+  "count": 10
+}

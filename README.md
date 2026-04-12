@@ -1,8 +1,8 @@
-# SDNET2018 Classification
+# SDNET2018
 
 ## Overview
 
-SDNET2018 Classification is a task-specific package derived from SDNET2018.
+SDNET2018 is a task-specific package derived from SDNET2018.
 
 - Task: classification
 - Images: 56091
