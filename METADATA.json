@@ -25,10 +25,16 @@
     "camera_viewpoint": [
       "top-down"
     ],
-    "resolution": "256x256 RGB image patches",
+    "resolution": "256x256",
     "lighting_conditions": "Variable outdoor lighting with shadows and debris",
     "capture_height_mm": "Not reported",
-    "geotagged": false
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "256x256",
+        "count": 56091
+      }
+    ]
   },
   "annotation_schema": [
     {
@@ -97,7 +103,9 @@
     "countries": [
       {
         "name": "United States",
-        "image_count": 8484
+        "image_count": 8484,
+        "annotated_image_count": 8484,
+        "annotation_coverage": 1.0
       }
     ],
     "temporal_scope": "Published 2018"
