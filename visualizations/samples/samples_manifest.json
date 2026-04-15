@@ -1,10 +1,10 @@
 {
   "samples": [
     {
-      "file": "sample_01_c1_non-cracked.jpg",
-      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\non-cracked\\7014-10.jpg",
+      "file": "sample_01_c1_cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\cracked\\7010-96.jpg",
       "classes": [
-        "non-cracked"
+        "cracked"
       ],
       "num_classes": 1,
       "objects": 1,
@@ -86,10 +86,10 @@
       }
     },
     {
-      "file": "sample_06_c1_cracked.jpg",
-      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\cracked\\7010-96.jpg",
+      "file": "sample_06_c1_non-cracked.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\non-cracked\\7014-10.jpg",
       "classes": [
-        "cracked"
+        "non-cracked"
       ],
       "num_classes": 1,
       "objects": 1,
