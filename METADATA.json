@@ -18,16 +18,16 @@
     "task_classification": {
       "primary_task": "classification"
     },
-    "label_taxonomy_version": "road_damage_v1"
+    "label_taxonomy_version": "road_damage_v2"
   },
   "imaging_setup": {
-    "camera": "Surface imaging setup for bridge decks, pavements, and walls",
+    "camera": "16 MP Nikon digital RGB camera",
     "camera_viewpoint": [
       "top-down"
     ],
     "resolution": "256x256",
     "lighting_conditions": "Variable outdoor lighting with shadows and debris",
-    "capture_height_mm": "Not reported",
+    "capture_height_mm": 500,
     "geotagged": false,
     "resolution_details": [
       {
@@ -81,7 +81,8 @@
         "annotation_coverage": 1,
         "dataset_size": "95.01 MB",
         "dataset_size_bytes": 99628272,
-        "dataset_file_count": 13620
+        "dataset_file_count": 13620,
+        "annotated": true
       },
       "pavement": {
         "n_images": 24333,
@@ -90,7 +91,8 @@
         "annotation_coverage": 1,
         "dataset_size": "299.19 MB",
         "dataset_size_bytes": 313725011,
-        "dataset_file_count": 24333
+        "dataset_file_count": 24333,
+        "annotated": true
       },
       "wall": {
         "n_images": 18138,
@@ -99,9 +101,11 @@
         "annotation_coverage": 1,
         "dataset_size": "111.97 MB",
         "dataset_size_bytes": 117412356,
-        "dataset_file_count": 18138
+        "dataset_file_count": 18138,
+        "annotated": true
       }
-    }
+    },
+    "n_images_in_annotated_splits": 56091
   },
   "geographic_coverage": {
     "countries": [
@@ -112,27 +116,27 @@
         "annotation_coverage": 1
       }
     ],
-    "temporal_scope": "Published 2018"
+    "temporal_scope": "Published 2018; collected at the SMASH Laboratory and campus of Utah State University, Logan, Utah, USA"
   },
   "quality_assurance": {
-    "annotation_quality": "Labels published with SDNET2018 dataset release",
+    "annotation_quality": "Image-level folder labels assigned to 256x256 patches (~60 mm x 60 mm each, crack widths 0.06-25 mm) segmented from 230 full-resolution (4068x3456) Nikon RGB images (54 bridge decks, 104 pavements, 72 walls) captured at a 500 mm working distance. The released archive contains 56,091 patches (21,725 uncracked pavement patches vs 21,726 reported in Table 1 of the Data in Brief article). Across the 56,091 files, there are 56,078 unique SHA-256 hashes (13 byte-identical *_2.jpg duplicate pairs in the bridge_deck subset, including 1 pair across cracked and non-cracked: 7039-112.jpg vs 7039-112_2.jpg).",
     "inter_annotator_agreement": "Not reported",
     "review_status": "Published dataset and data article"
   },
   "authors": [
     {
       "name": "Sattar Dorafshan",
-      "affiliation": "Utah State University",
+      "affiliation": "Department of Civil and Environmental Engineering, Utah State University",
       "role": "Dataset Creator"
     },
     {
       "name": "Robert J. Thomas",
-      "affiliation": "Utah State University",
+      "affiliation": "Department of Civil and Environmental Engineering, Clarkson University",
       "role": "Dataset Creator"
     },
     {
       "name": "Marc Maguire",
-      "affiliation": "Utah State University",
+      "affiliation": "Department of Civil and Environmental Engineering, Utah State University",
       "role": "Dataset Creator"
     }
   ],

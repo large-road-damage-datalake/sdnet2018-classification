@@ -12,6 +12,6 @@ SDNET2018 is distributed under:
 This repository is a task-specific packaging and analytics build based on the source dataset.
 Please preserve attribution to the original authors:
 
-- Sattar Dorafshan
-- Robert J. Thomas
-- Marc Maguire
+- Sattar Dorafshan (Department of Civil and Environmental Engineering, Utah State University)
+- Robert J. Thomas (Department of Civil and Environmental Engineering, Clarkson University)
+- Marc Maguire (Department of Civil and Environmental Engineering, Utah State University)

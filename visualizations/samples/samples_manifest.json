@@ -87,7 +87,7 @@
     },
     {
       "file": "sample_06_c1_non-cracked.jpg",
-      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\non-cracked\\7014-10.jpg",
+      "source": "D:/PhD/Datasets/classification/SDNET2018/D\\non-cracked\\7015-100.jpg",
       "classes": [
         "non-cracked"
       ],
